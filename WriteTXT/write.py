@@ -32,7 +32,7 @@ def writestr(list_name):
             if j == 'no':
                 j = '0'
             if j == '1' or j == '0':
-                s = s + '\t' + '\r\n'
+                s = s + ' ' + '\n'
             else:
                 s = s + 'Data/' + j
     return s
